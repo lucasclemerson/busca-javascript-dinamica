@@ -4,6 +4,7 @@
     <title> Campo de busca</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
@@ -13,6 +14,11 @@
     </header>
 
     <main>
+        <div>
+            <label>Informe o celular que deseja comprar</label>
+            <input name="campo-busca" onkeyup="filter()" placeholder="seach" type="text">
+        </div>
+
         <div>
             <ul>
                 <li>Iphone 5c</li>
@@ -26,10 +32,8 @@
 
         </div>
     </main>
-
-
-
-
 </body>
+
+<script type="text/javascript" src="js/main.js"></script>
 </html>
 
