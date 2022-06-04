@@ -15,5 +15,31 @@ header{
     width: 100%;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
+
+main{
+    margin: auto;
+    width: 60%;
+}
+
+main > div  > *{
+    width: 100%;
+}
+
+label{
+    color: wheat;
+    margin-bottom: 14px;
+    display: block;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: rgb(82, 67, 133);
+}
+
+
+
+
